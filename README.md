@@ -1,17 +1,16 @@
-# first_app
+# Bitácora de errores
 
-A new Flutter project.
+## Proyecto
+First App - Flutter
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## Error 1: No se abrió el emulador de Android
 
-A few resources to get you started if this is your first Flutter project:
+| Campo | Contenido esperado |
+|-------|-------------------|
+| Síntoma | El emulador de Android no se abría al intentar ejecutar la aplicación desde Windows. |
+| Causa identificada | Se intentó abrir el emulador configurado para Windows, pero no estaba instalado el ejecutador para aplicaciones de Windows. |
+| Solución aplicada | Conecté mi emulador de Android desde Android Studio y lo usé como dispositivo de ejecución para correr la app. |
+| Verificación | La aplicación se ejecutó correctamente en el emulador de Android conectado desde Android Studio. |
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
